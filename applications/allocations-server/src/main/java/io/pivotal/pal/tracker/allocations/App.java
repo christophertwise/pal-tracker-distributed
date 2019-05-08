@@ -19,6 +19,7 @@ public class App {
         SpringApplication.run(App.class, args);
     }
 
+    //comment
     @Bean
     ProjectClient projectClient(
         RestOperations restOperations,
